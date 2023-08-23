@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dBurger</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__content">
+                    <a href="" class="navbar__content-logo">
+                        <img src="images/logo.png" alt="logo">
+                        dBurger
+                    </a>
+                    <div class="navbar__content-basket">
+                        <button class="navbar__content-btn">
+                            <img src="images/nav-basket.svg" alt="basket">
+                            <span class="navbar__content-count"></span>
+                        </button>
+                        <div class="navbar__content-dropdown">
+                            <div class="navbar__content-dropdownTop">
+                                <h3 class="navbar__content-title">Корзина</h3>
+                                <button class="navbar__content-close">
+                                    <img src="images/close-btn.svg" alt="close-btn">
+                                </button>
+                            </div>
+                            <div class="navbar__content-checklist">
+
+                            </div>
+                            <div class="navbar__content-dropdownBottom">
+                                <h3 class="navbar__content-title">Заказать</h3>
+                                <span class="navbar__content-totalPrice">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container product__banner">
+            <img src="images/big-burger.png" alt="burger">
+        </div>
+
+        <div class="container product__list">
+            <div class="product__list-card" id="crazy">
+                <span class="product__list-count"></span>
+                <img src="images/products/burger-1.png" alt="" class="product__list-image">
+                <h3 class="product__list-title">Crazy</h3>
+                <div class="product__list-info">
+                    <p class="product__list-price">31 000 сум</p>
+                    <button class="product__list-basket">
+                        <img src="images/product-basket.svg" alt="basket">
+                    </button>
+                </div>
+            </div>
+            <div class="product__list-card" id="light">
+                <span class="product__list-count"></span>
+                <img src="images/products/burger-2.png" alt="" class="product__list-image">
+                <h3 class="product__list-title">Light</h3>
+                <div class="product__list-info">
+                    <p class="product__list-price">26 000 сум</p>
+                    <button class="product__list-basket">
+                        <img src="images/product-basket.svg" alt="basket">
+                    </button>
+                </div>
+            </div>
+            <div class="product__list-card" id="cheeseburger">
+                <span class="product__list-count"></span>
+                <img src="images/products/burger-3.png" alt="" class="product__list-image">
+                <h3 class="product__list-title">CheeseBurger</h3>
+                <div class="product__list-info">
+                    <p class="product__list-price">29 000 сум</p>
+                    <button class="product__list-basket">
+                        <img src="images/product-basket.svg" alt="basket">
+                    </button>
+                </div>
+            </div>
+            <div class="product__list-card" id="dburger">
+                <span class="product__list-count"></span>
+                <img src="images/products/burger-4.png" alt="" class="product__list-image">
+                <h3 class="product__list-title">dBurger</h3>
+                <div class="product__list-info">
+                    <p class="product__list-price">24 000 сум</p>
+                    <button class="product__list-basket">
+                        <img src="images/product-basket.svg" alt="basket">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="print">
+        <h3 class="print__title">Ваш заказ оформлен!</h3>
+        <div class="print__header">
+            <img src="images/logo.png" alt="logo">
+            dBurger
+        </div>
+        <div class="print__body">
+            
+        </div>
+        <div class="print__footer">
+            
+        </div>
+    </div>
+
+    <script src="script/app.js"></script>
+</body>
+
+</html>
